@@ -1,0 +1,169 @@
+<div class="content" role="main">
+
+  <div class="card-container">
+
+
+    <!-- <div class="card">
+      <div class="card-icon">
+        <img src="assets/icons/total-purchase.svg" alt="agent-icon" srcset="">
+      </div>
+
+      <span class="card-text" style="margin-top: 1rem;">
+        <ng-container *ngIf="isLoadingPoint; else elseTemplatePurchased">
+          <mat-spinner class="custom-spinner" diameter="15"></mat-spinner>
+        </ng-container>
+        <ng-template #elseTemplatePurchased>
+          {{0 | number: '1.0-0'}}
+        </ng-template>
+
+        <small style="font-weight: 400; margin-left: 5px;">Units Purchased</small>
+      </span>
+
+      <span class="card-text">
+        <ng-container *ngIf="isLoadingPoint; else elseTemplateUsed">
+          <mat-spinner class="custom-spinner" diameter="15"></mat-spinner>
+        </ng-container>
+        <ng-template #elseTemplateUsed>
+          {{0 | number: '1.0-0'}}
+        </ng-template>
+
+        <small style="font-weight: 400; margin-left: 5px;">Units Left</small>
+      </span>
+    </div> -->
+
+    <!-- <div class="card">
+      <div class="card-icon">
+        <img src="assets/icon/pending-orders.svg" alt="agent-icon" srcset="">
+      </div>
+
+      <ng-container *ngIf="isCountLoading; else elseTemplateProject">
+        <mat-spinner class="custom-spinner" diameter="40"></mat-spinner>
+      </ng-container>
+      <ng-template #elseTemplateProject>
+        <h1 class="card-count">{{0 | number: '1.0-0'}}</h1>
+      </ng-template>
+
+      <span class="card-text">Total Projects</span>
+    </div>
+    -->
+
+    <div class="card">
+      <div class="card-icon">
+        <img src="assets/icon/pending-orders.svg" alt="agent-icon" srcset="">
+      </div>
+
+      <div class="card-text-section">
+        <h1 class="card-count">{{0 | number: '1.0-0'}}</h1>
+        <span class="card-text">Pending Orders</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">
+        <img src="assets/icon/visitors.svg" alt="agent-icon" srcset="">
+      </div>
+
+      <div class="card-text-section">
+        <h1 class="card-count">{{0 | number: '1.0-0'}}</h1>
+        <span class="card-text">Today's visitors</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">
+        <img src="assets/icon/stock.svg" alt="agent-icon" srcset="">
+      </div>
+
+      <div class="card-text-section">
+        <h1 class="card-count">{{0 | number: '1.0-0'}}</h1>
+        <span class="card-text">Items in Stock</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">
+        <img src="assets/icon/total-sales.svg" alt="agent-icon" srcset="">
+      </div>
+
+      <div class="card-text-section">
+        <h1 class="card-count">{{0 | number: '1.0-0'}}</h1>
+        <span class="card-text">Total Sales</span>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="card">
+      <div class="card-icon">
+        <img src="assets/icon/stock.svg" alt="agent-icon" srcset="">
+      </div>
+
+      <ng-container *ngIf="isCountLoading; else elseTemplateAgent">
+        <mat-spinner class="custom-spinner" diameter="40"></mat-spinner>
+      </ng-container>
+      <ng-template #elseTemplateAgent>
+        <h1 class="card-count">{{0 | number: '1.0-0'}}</h1>
+      </ng-template>
+
+      <span class="card-text">Total Agents</span>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">
+        <img src="assets/icon/total-sales.svg" alt="staff-icon" srcset="">
+      </div>
+
+      <ng-container *ngIf="isCountLoading; else elseTemplateOfficer">
+        <mat-spinner class="custom-spinner" diameter="40"></mat-spinner>
+      </ng-container>
+      <ng-template #elseTemplateOfficer>
+        <h1 class="card-count">{{0 | number: '1.0-0'}}</h1>
+      </ng-template>
+
+      <span class="card-text">Total Staff</span>
+    </div>  -->
+  </div>
+
+
+  <div class="card-bigger">
+    <div class="terminal" style="margin-top: 1rem;">
+      <div class="terminal-title">
+        <p>Store/Product performance</p>
+      </div>
+      <!-- <pre>ng generate component xyz</pre> -->
+
+      <!-- <div id="chartdivTest" style="width: 100%; height: 330px; margin-top: 2rem;"></div> -->
+    </div>
+
+    <div class="terminal" style="margin-top: 1rem;">
+      <div class="terminal-title">
+        <p>Recent buyers</p>
+      </div>
+      <!-- <pre>ng generate component xyz</pre> -->
+
+      <!-- <div id="chartdivTest" style="width: 100%; height: 330px; margin-top: 2rem;"></div> -->
+    </div>
+  </div>
+
+  <div class="card-bigger">
+    <div class="terminal" style="margin-top: 1rem;">
+      <div class="terminal-title">
+        <p>Store details</p>
+      </div>
+      <!-- <pre>ng generate component xyz</pre> -->
+
+      <!-- <div id="chartdivTest" style="width: 100%; height: 330px; margin-top: 2rem;"></div> -->
+    </div>
+
+    <div class="terminal" style="margin-top: 1rem;">
+      <div class="terminal-title">
+        <p>Best selling items</p>
+      </div>
+      <!-- <pre>ng generate component xyz</pre> -->
+
+      <!-- <div id="chartdivTest" style="width: 100%; height: 330px; margin-top: 2rem;"></div> -->
+    </div>
+  </div>
+
+
+</div>
