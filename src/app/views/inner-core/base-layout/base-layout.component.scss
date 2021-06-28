@@ -122,10 +122,10 @@ h1.base-layout-app-name span {
   justify-content: center;
   align-content: center;
   position: relative;
-  top: 50vh;
-  .logOutIcon {
-    transform: scale(1.2) !important;
-  }
+  letter-spacing: 0px;
+  color: #727272;
+  opacity: 0.8;
+  top: 10vh;
 }
 
 .powered-by {
