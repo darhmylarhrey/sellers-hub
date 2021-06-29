@@ -46,13 +46,14 @@ nav {
 }
 
 .header {
-  height: 97vh;
+  height: 87vh;
   width: 100%;
   background-image: url("/assets/img/hero-image@2x.png");
   background-size: cover;
   background-position: top;
   position: relative;
   z-index: 10;
+  // background-attachment: fixed;
   // clip-path: polygon(0 0, 100% 0, 100% 80%, 70% 90%, 0 70%);
 }
 
