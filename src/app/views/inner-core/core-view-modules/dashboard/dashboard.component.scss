@@ -1,11 +1,13 @@
-// :host {
-//   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-//   font-size: 14px;
-//   color: #333;
-//   box-sizing: border-box;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-// }
+:host {
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Gotham";
+  font-size: 14px;
+  font-weight: 500;
+  color: #151716;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 h1,
 h2,
@@ -216,7 +218,7 @@ a:hover {
 .terminal {
   position: relative;
   width: 100%;
-  height: 383px;
+  height: 420px;
   // width: 80%;
   // max-width: 800px;
   // padding-top: 45px;
@@ -233,7 +235,7 @@ a:hover {
 
 .terminal-title p {
   margin: 0rem;
-  font-weight: 550;
+  font-weight: 750;
 }
 
 .date-filter {
@@ -259,13 +261,13 @@ a:hover {
   justify-content: space-evenly;
 }
 
-.date-filter-right>div {
+.date-filter-right > div {
   margin-left: 2rem;
   padding: 0.1rem 0;
 }
 
-.date-filter-right>div:first-child {
-  border-bottom: 2px solid #FF5700;
+.date-filter-right > div:first-child {
+  border-bottom: 2px solid #ff5700;
 }
 
 .recent-buyers {
@@ -281,7 +283,6 @@ a:hover {
 .recent-buyers-left {
   display: flex;
 
-
   img {
     object-fit: contain;
     width: 40px;
@@ -293,7 +294,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: -50px;
+  // margin-left: -50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
   :last-child {
     margin-top: 4px;
@@ -361,7 +365,7 @@ a:hover {
   :first-child {
     letter-spacing: 0px;
     color: #151716;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
   }
 
@@ -381,7 +385,7 @@ a:hover {
 
 .middle-store-details {
   // height: 90px;
-  background: #F8F8F8 0% 0% no-repeat padding-box;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding: 1.3rem 1rem;
 }
@@ -390,8 +394,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 0px 5px #0000001A;
-  border: 1px solid #A5A5A5;
+  box-shadow: 0px 0px 5px #0000001a;
+  border: 1px solid #a5a5a5;
   border-radius: 8px;
   opacity: 0.8;
 
@@ -412,7 +416,7 @@ a:hover {
   }
 
   progress::-webkit-progress-value {
-    background: #FFB300 0% 0% no-repeat padding-box !important;
+    background: #ffb300 0% 0% no-repeat padding-box !important;
   }
 }
 
@@ -426,14 +430,14 @@ a:hover {
     align-items: center;
   }
 }
-.best-selling{
+.best-selling {
   margin-top: 0.5rem;
   display: flex;
   justify-content: space-between;
 }
 .best-selling-row {
   padding: 5px;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   border-radius: 8px;
   height: 100px;
   width: 47.5%;
@@ -475,11 +479,11 @@ a:hover {
     width: 48%;
     height: 100%;
     text-align: center;
-    background: #F2F2F2 0% 0% no-repeat padding-box;
+    background: #f2f2f2 0% 0% no-repeat padding-box;
     border-radius: 4px;
 
     :first-child {
-      font-weight: 500;
+      font-weight: 600;
       padding-top: 5px;
     }
 
@@ -490,10 +494,6 @@ a:hover {
     }
   }
 }
-
-
-
-
 
 // .terminal::before {
 //   content: "";
