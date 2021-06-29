@@ -175,3 +175,9 @@ h1.base-layout-app-name span {
   margin-top: 1.3rem;
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 575px) {
+  .base-layout-is-mobile .base-layout-toolbar {
+     visibility: hidden;
+  }
+}
