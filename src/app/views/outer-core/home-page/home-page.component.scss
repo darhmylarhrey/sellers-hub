@@ -21,6 +21,9 @@ nav {
   width: 30%;
   display: flex;
   justify-content: space-around;
+  letter-spacing: 0px;
+  color: #151716;
+  opacity: 0.9;
 }
 
 .navi {
@@ -119,25 +122,24 @@ nav {
   align-items: center;
   justify-content: center;
 
-
-  img{
+  img {
     object-fit: contain;
     width: 70px;
     height: 70px;
   }
 
-  span{
+  span {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     opacity: 0.8;
-    p{
+    p {
       margin: 0;
       text-align: center;
-      font-size: small
+      font-size: small;
     }
-    h3{
+    h3 {
       margin: 0.8rem 0 0 0;
     }
   }
@@ -152,14 +154,14 @@ nav {
 }
 
 .details {
-  margin-top: -7rem;
+  margin-top: -5rem;
   height: 30rem;
   grid-row: 2/4;
   grid-column: 2/8;
   display: flex;
-  justify-content: space-between;
-  flex: 1 1 100%;
-  grid-column-gap: 3rem;
+  justify-content: center;
+  // flex: 1 1 100%;
+  // grid-column-gap: 3rem;
 }
 
 .span1 {
@@ -185,33 +187,57 @@ nav {
 }
 
 .list {
-  height: 33%;
+  height: 30%;
   display: flex;
   gap: 2rem;
   background-color: #f8f8f8;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 .lefted {
   text-align: right;
 }
 
+.inner-text {
+  display: flex;
+  flex-direction: column;
+  // text-align: center;
+  justify-content: center;
+  :first-child {
+    font-weight: 550;
+    letter-spacing: 0px;
+    color: #151716;
+    opacity: 0.9;
+  }
+  // :last-child{
+  //   font-size: 15px;
+  // }
+}
+
 .icon {
-  margin-top: 20px;
-  margin-right: 10px;
-  background-color: #02796f;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
+  // margin-top: 20px;
+  // margin-right: 10px;
+  background: #02796f 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 10px #02020219;
+  height: 47px;
+  width: 112px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 10px 0 0;
 }
 
 .iconed {
-  margin-top: 20px;
-  margin-left: 10px;
-  background-color: #02796f;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
+  background: #02796f 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 10px #02020219;
+  height: 47px;
+  width: 82px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0 0 10px;
 }
 
 .third {
